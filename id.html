@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Departement Form</title>
+	</head>
+	<body>
+		<h1>Form Pendaftaran Departemen 2020-2021</h1>
+		<label for="code">
+			Paste kode yang telah diberikan di chat zoom di sini:
+		</label>
+		<textarea name="code" id="code"></textarea>
+		<br />
+		<button id="download">Download Final PDF</button>
+		<br />
+		<a download="Formulir.pdf" id="download-backup"
+			>Your file should automatically download. or if it doesn't work...
+			click here</a
+		>
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+			integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/downloadjs@1.4.7"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"
+			integrity="sha512-pUhApVQtLbnpLtJn6DuzDD5o2xtmLJnJ7oBoMsBnzOkVkpqofGLGPaBJ6ayD2zQe3lCgCibhJBi4cj5wAxwVKA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

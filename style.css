@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: helvetica;
+}
+
+#download-backup {
+	display: none;
+	text-align: center;
+}
+
+p {
+	font-size: 24px;
+	text-align: center;
+	margin: 25px;
+}
+
+label,
+h1 {
+	text-align: center;
+}
+
+button {
+	background-color: #008cba;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#qr_code {
+	display: none;
+	position: absolute;
+}
