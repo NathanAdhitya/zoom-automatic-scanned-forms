@@ -1,4 +1,5 @@
 This repository is not actively maintained. This is just a dump for one of my latest projects.
+Code for the verification process was derived from: https://gist.github.com/bitnik/0f1067267d28b4efb08988b121696c14
 
 Since this was a quick project, I did not really bother to take notes of the entire environemnt, this is a rough list:
 - Python 3.9
